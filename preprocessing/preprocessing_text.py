@@ -5,7 +5,7 @@ DELIMITERS = ['.', '?', '!', ':', ';', '\n']
 class TextPreprocessing:
 
     @classmethod
-    def get_sentences(cls, text):
+    def get_sentences(cls, text: str):
         words_temp = text.split(' ')
         words = []
 
