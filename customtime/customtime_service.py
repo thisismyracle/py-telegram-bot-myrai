@@ -25,4 +25,6 @@ class CustomTime:
         elif hour < 19:
             time_affix = 'maghrib'
 
-        return strftime(f'Sekarang adalah hari {day}, tanggal %d {month} %Y, jam %H:%M {time_affix}.', localtime())
+        time_context = strftime(f'Sekarang adalah hari {day}, tanggal %d {month} %Y, jam %H:%M {time_affix}.', localtime())
+
+        return time_context
