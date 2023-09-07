@@ -21,3 +21,5 @@ The default character persona is Myrai, a muslim sister, speak Bahasa Indonesia,
 2. Rename it to your desired name (no space)
 3. Edit the json, fill up with your desired persona (use the language you used, here I use Bahasa Indonesia)
 4. Open .env file, change the CHARA_NAME to name you gave in step 2
+5. Edit 'chatgpt/chatgpt_service.py' -> get_weighted_answer function up to your heart content (if you want exclusive calling only for you, the type of language she use, etc).
+6. If you're not using Indonesian language, edit 'customtime/customtime_service.py' and translate it.
