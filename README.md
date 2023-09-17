@@ -35,7 +35,8 @@ There are tasks to do if you want the bot not using Bahasa Indonesia:
 ### Update: Voice-to-Voice feature added!
 Now you can send voice note to your bot, and your bot will reply you with another voice note.
 Before that, you must do:
-1. Prepare your SOVITS model (you can train new one [here](https://github.com/thisismyracle/py-sovits-song-cover), or download existing model on huggingface ([example: alice](https://huggingface.co/spaces/zomehwh/sovits-models/tree/main/models)))
-2. Paste your model folder into _'voiceprompt/database/model/'_
-3. Copy your _model.pth_ and _config.json_ path, then paste it into _.env_ file (example: _'./voiceprompt/database/model/alice/alice.pth'_ and _'./voiceprompt/database/model/alice/config.json'_)
+1. Install SOVITS via terminal by runnning this command: _pip install -U so-vits-svc-fork_
+2. Prepare your SOVITS model (you can train new one [here](https://github.com/thisismyracle/py-sovits-song-cover), or download existing model on huggingface ([example: alice](https://huggingface.co/spaces/zomehwh/sovits-models/tree/main/models)))
+3. Paste your model folder into _'voiceprompt/database/model/'_
+4. Copy your _model.pth_ and _config.json_ path, then paste it into _.env_ file (example: _'./voiceprompt/database/model/alice/alice.pth'_ and _'./voiceprompt/database/model/alice/config.json'_)
 
